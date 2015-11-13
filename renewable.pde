@@ -2,9 +2,11 @@ class Renewable
 {
   String geo;
   String type;
-  float consumption;
+  float[] consumption;
   
-  Renewable(String geo, String type, float consumption)
+  
+  
+  Renewable(String geo, String type, float[] consumption)
   {
     this.geo=geo;
     this.type=type;
@@ -15,7 +17,6 @@ class Renewable
   {
     geo="";
     type="";
-    consumption=0.1f;
   }
   
   
